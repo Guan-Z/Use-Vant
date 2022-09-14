@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <ChooseTheme />
+    <VantPaging />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChooseTheme from './components/ChooseTheme.vue'
+import VantPaging from './components/VantPaging.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChooseTheme,
+    VantPaging
+  },
+  methods: {
+  },
+  beforeMount(){
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
