@@ -1,5 +1,7 @@
 # use_vant
 
+GitHub Pages 地址：https://guan-z.github.io/Use-Vant/
+
 ## Project setup
 ```
 npm install
